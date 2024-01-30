@@ -3,8 +3,7 @@
 # ------------------------------------------------------
 
 input CreateUserInput {
-  """Example field (placeholder)"""
-  exampleField: Int!
+  studentNumber: Float!
 }
 
 type Mutation {
@@ -19,9 +18,8 @@ type Query {
 }
 
 input UpdateUserInput {
-  """Example field (placeholder)"""
-  exampleField: Int
   id: Int!
+  studentNumber: Float
 }
 
 type User {
