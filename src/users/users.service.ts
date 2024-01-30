@@ -9,7 +9,17 @@ export class UsersService {
   }
 
   findAll() {
-    return `This action returns all users`;
+    return [
+      {
+        id:1,
+        studentNumber:'12345'
+      },
+      {
+        id:2,
+        studentNumber:'56789'
+      }
+    ]
+
   }
 
   findOne(id: number) {
